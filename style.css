@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1c1919;
+}
+
+.image_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.image_container h6 {
+  font-size: 16px;
+  font-weight: 700;
+  font-weight: 14px;
+  color: #c0bfbf;
+  
+}
+
+.img-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-icons h1 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #d1cece;
+}
+
+.img-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.container-2 {
+  background-color: #eae8e8;
+  padding: 15px 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  margin-right: 500px;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #100404;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav img {
+  height: 20px;
+}
+
+nav div a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.container-3 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-row {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.image-row img {
+  width: 100%;
+  height: auto;
+  display: none; 
+}
+
+.image-row img.active {
+  display: block; 
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(115, 114, 114, 0.326);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+.center h6 {
+  color: #eae8e8;
+  font-size: 14px;
+  align-items: center;
+}
+.text {
+  margin: 50px;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  color: #fff;
+  text-align: left;
+}
+
+.text button {
+  padding: 10px 20px;
+  background-color: #0db320;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.button-1 {
+  margin-top: 2cap;
+  width: 221px;
+  height: 62px;
+  gap: 10px;
+}
+.login a {
+  color: rgb(56, 133, 220);
+  text-decoration: none;
+}
+.text h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.text h1{
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+}
+.text h5{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
